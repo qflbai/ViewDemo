@@ -20,10 +20,12 @@ public class MainActivity extends AppCompatActivity {
     List<PageModel> pageModels = new ArrayList<>();
 
     {
-        pageModels.add(new PageModel(R.layout.filpboard_layout, "1"));
-        pageModels.add(new PageModel(R.layout.like_layout, "2"));
-        pageModels.add(new PageModel(R.layout.ruler_layout, "3"));
-        pageModels.add(new PageModel(R.layout.move_layout, "4"));
+        pageModels.add(new PageModel(R.layout.line_layout, "line_layout"));
+        pageModels.add(new PageModel(R.layout.filpboard_layout, "filpboard_layout"));
+        pageModels.add(new PageModel(R.layout.like_layout, "like_layout"));
+        pageModels.add(new PageModel(R.layout.ruler_layout, "ruler_layout"));
+        pageModels.add(new PageModel(R.layout.move_layout, "move_layout"));
+        pageModels.add(new PageModel(R.layout.waveview_layout, "waveview_layout"));
     }
 
     @Override

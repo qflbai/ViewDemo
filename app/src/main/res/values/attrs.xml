@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="refresh_PullRefreshLayout">
+        <attr name="refreshType" format="enum">
+            <enum name="material" value="0" />
+            <enum name="circles" value="1" />
+            <enum name="water_drop" value="2" />
+            <enum name="ring" value="3" />
+            <enum name="smartisan" value="4" />
+        </attr>
+        <attr name="refreshColors" format="reference"/>
+        <attr name="refreshColor" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="waveWaterLevel" format="float" />
+        <attr name="amplitudeRatio" format="float" />
+        <attr name="waveLengthRatio" format="float" />
+        <attr name="waveShiftRatio" format="float" />
+        <attr name="frontWaveColor" format="color" />
+        <attr name="behindWaveColor" format="color" />
+        <attr name="waveShape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="showWave" format="boolean" />
+    </declare-styleable>
+</resources>
